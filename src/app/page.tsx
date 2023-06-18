@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { toast } from "sonner";
 import Hero from "~/components/Hero";
 import KeyCap from "~/components/Keyboard/KeyCap";
-import Loading from "~/components/Loading";
 import { state as mstate } from "~/components/Modal/state";
 import Projects from "~/components/Projects";
 import keys from "~/lib/keys";
