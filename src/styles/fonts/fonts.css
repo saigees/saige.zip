@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Basier Circle";
+    src: url("./BasierCircle-Regular.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Basier Circle";
+    src: url("./BasierCircle-Medium.woff");
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Basier Circle";
+    src: url("./BasierCircle-SemiBold.woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Recoleta";
+    src: url("./Recoleta-Regular.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Recoleta";
+    src: url("./Recoleta-SemiBold.woff");
+    font-weight: bold;
+    font-style: normal;
+}
