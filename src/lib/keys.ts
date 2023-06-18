@@ -3,7 +3,7 @@ import { modal } from "~/components/Modal";
 
 export default (window: Window) => {
     const unsubscribe = tinykeys(window, {
-        "P": (event) => {
+        "F1": (event) => {
             event.preventDefault()
             modal()
         }

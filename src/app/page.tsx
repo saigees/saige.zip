@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { toast } from "sonner";
 import Hero from "~/components/Hero";
 import KeyCap from "~/components/Keyboard/KeyCap";
+import Loading from "~/components/Loading";
 import { state as mstate } from "~/components/Modal/state";
 import Projects from "~/components/Projects";
 import keys from "~/lib/keys";
@@ -13,7 +14,7 @@ const t = () =>
     <div className="flex gap-1">
       Press{" "}
       <div className="flex h-[20px] w-[20px] items-center justify-center rounded-md border border-black border-opacity-10 bg-black bg-opacity-50 text-white">
-        P
+        F1
       </div>{" "}
       at any time to contact me.
     </div>
