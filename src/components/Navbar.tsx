@@ -1,7 +1,10 @@
 "use client";
 import { usePathname } from "next/navigation";
 import Dropdown from "./Dropdown";
-const paths = [];
+const paths = [] as {
+  name: string;
+  url: string;
+}[]
 
 export default function Navbar() {
   const pathname = usePathname();

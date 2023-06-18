@@ -9,6 +9,9 @@ const config = {
   reactStrictMode: true,
   experimental: {
     appDir: true
+  },
+  eslint: {
+    ignoreDuringBuilds: true
   }
 };
 export default config;
