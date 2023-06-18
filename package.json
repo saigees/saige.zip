@@ -6,7 +6,7 @@
     "build": "next build",
     "dev": "next dev --turbo --port 5235",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start --port 5235"
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.3.1",
